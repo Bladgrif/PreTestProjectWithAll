@@ -3,43 +3,43 @@ package tests.selenide;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Tag;
 import org.junit.jupiter.api.Test;
-import pages.TextBoxPage;
+import pages.TextBoxPageSelenide;
 
 public class TextBoxTest extends BaseTest{
 
-    TextBoxPage textBoxPage = new TextBoxPage();
+    TextBoxPageSelenide textBoxPageSelenide = new TextBoxPageSelenide();
 
     @Test
-    @DisplayName("Filling out the TextBox form  and checking")
+    @DisplayName("Filling out the TextBox form  and checking Selenide")
     @Tag("web")
     void fileFormTest() {
 
-        textBoxPage.openPage()
+        textBoxPageSelenide.openPage()
                 .SetUserName("Roman Grigorev")
                 .SetUserEmail("Roman@gmail.com")
                 .SetCurrentAddress("Cheboksary")
                 .SetPermanentAddress("Cheboksary-2")
                 .pressButton();
 
-        textBoxPage.checkResultName("Roman Grigorev")
+        textBoxPageSelenide.checkResultName("Roman Grigorev")
                 .checkResultEmail("Roman@gmail.com")
                 .checkResultCurrentAddress("Cheboksary")
                 .checkResultPermanentAddress("Cheboksary-2");
     }
 
     @Test
-    @DisplayName("Negative Filling out the TextBox form  and checking")
+    @DisplayName("Negative Filling out the TextBox form  and checking Selenide")
     @Tag("web")
     void failFileFormTest() {
 
-        textBoxPage.openPage()
+        textBoxPageSelenide.openPage()
                 .SetUserName("Alexey Grigorev")
                 .SetUserEmail("Roman@gmail.com")
                 .SetCurrentAddress("Cheboksary")
                 .SetPermanentAddress("Cheboksary-2")
                 .pressButton();
 
-        textBoxPage.checkResultName("Roman Grigorev")
+        textBoxPageSelenide.checkResultName("Roman Grigorev")
                 .checkResultEmail("Roman@gmail.com")
                 .checkResultCurrentAddress("Cheboksary")
                 .checkResultPermanentAddress("Cheboksary-2");
