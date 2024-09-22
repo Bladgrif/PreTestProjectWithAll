@@ -35,14 +35,14 @@ public class CalculatorUnitTests {
 
     @Test
     @DisplayName("Test for exception when dividing by zero")
-    @Tag("unit")
+    @Tag("Unit")
     void testDivideByZero() {
         assertThrows(ArithmeticException.class, () -> calculator.division(1, 0));
     }
 
     @Test
     @DisplayName("Test with Mockito")
-    @Tag("unit")
+    @Tag("Unit")
     void testWithMock() {
         Calculator mockCalculator = mock(Calculator.class);
         when(mockCalculator.addition(1, 2)).thenReturn(3);
@@ -52,7 +52,7 @@ public class CalculatorUnitTests {
 
     @RepeatedTest(5)
     @DisplayName("Repeated test for addition")
-    @Tag("unit")
+    @Tag("Unit")
     void repeatedTest(RepetitionInfo repetitionInfo) {
         int a = repetitionInfo.getCurrentRepetition();
         int b = 2;
@@ -65,14 +65,14 @@ public class CalculatorUnitTests {
     class AddTests {
         @Test
         @DisplayName("Test addition of two positive numbers")
-        @Tag("unit")
+        @Tag("Unit")
         void testAddPositiveNumbers() {
             assertEquals(5, calculator.addition(2, 3));
         }
 
         @Test
         @DisplayName("Test addition of two negative numbers")
-        @Tag("unit")
+        @Tag("Unit")
         void testAddNegativeNumbers() {
             assertEquals(-5, calculator.addition(-2, -3));
         }

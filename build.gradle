@@ -64,25 +64,14 @@ test {
 
 
 
-//test {
-//    useJUnitPlatform() // Для JUnit 5
-//    testLogging {
-//        events "passed", "failed", "skipped"
-//    }
-//}
+task all_tests(type: Test) {
+    useJUnitPlatform{
+        includeTags("API,WEB,Unit")
+    }
+}
 
-//test {
-//    useJUnitPlatform()
-//
-//    // Параллельный запуск тестов
-//    maxParallelForks = 2
-//
-//    // Фильтрация по тегам
-////    filter {
-////        includeTags 'API',"WEB","Unit"
-////    }
-//    testLogging {
-//        events "passed", "skipped", "failed"
-//    }
-//}
-
+task unit_tests(type: Test) {
+    useJUnitPlatform{
+        includeTags("Unit")
+    }
+}
