@@ -61,12 +61,21 @@ test {
 //gradle test -PincludeTags="WEB"
 //gradle test -PincludeTags="Unit"
 //gradle test -PincludeTags="API,Unit"
+//gradle unit_tests api_tests --parallel
 
-
+// Включение параллельного выполнения задач
+gradle.projectsEvaluated {
+    tasks.withType(Test) {
+        maxParallelForks = Runtime.runtime.availableProcessors() / 2 // Вычисляем количество потоков
+    }
+}
 
 task all_tests(type: Test) {
     useJUnitPlatform{
         includeTags()
+    }
+    testLogging {
+        events "passed", "skipped", "failed"
     }
 }
 
@@ -74,16 +83,25 @@ task unit_tests(type: Test) {
     useJUnitPlatform{
         includeTags("Unit")
     }
+    testLogging {
+        events "passed", "skipped", "failed"
+    }
 }
 
 task api_tests(type: Test) {
     useJUnitPlatform{
         includeTags("API")
     }
+    testLogging {
+        events "passed", "skipped", "failed"
+    }
 }
 
 task web_tests(type: Test) {
     useJUnitPlatform{
         includeTags("WEB")
+    }
+    testLogging {
+        events "passed", "skipped", "failed"
     }
 }
