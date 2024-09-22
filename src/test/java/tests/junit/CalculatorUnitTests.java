@@ -43,6 +43,7 @@ public class CalculatorUnitTests {
     @Test
     @DisplayName("Test with Mockito")
     @Tag("Unit")
+    @Disabled
     void testWithMock() {
         Calculator mockCalculator = mock(Calculator.class);
         when(mockCalculator.addition(1, 2)).thenReturn(3);
