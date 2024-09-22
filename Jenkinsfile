@@ -7,13 +7,13 @@ pipeline {
                 stage('Unit Tests') {
                     steps {
                         // Запуск юнит-тестов
-                        sh 'unit_tests'
+                        sh 'gradle unit_tests'
                     }
                 }
                 stage('API Tests') {
                     steps {
                         // Запуск API-тестов
-                        sh 'api_tests'
+                        sh 'gradle api_tests'
                     }
                 }
             }
