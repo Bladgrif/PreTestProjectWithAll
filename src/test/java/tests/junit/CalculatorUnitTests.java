@@ -20,7 +20,7 @@ public class CalculatorUnitTests {
 
     @Test
     @DisplayName("Testing addition of two numbers")
-    @Tag("unit")
+    @Tag("Unit")
     void testAdd() {
         assertEquals(5, calculator.addition(2, 3));
     }
@@ -28,7 +28,7 @@ public class CalculatorUnitTests {
     @Disabled("Some reason for disabled test : JIRA-1234")
     @Test
     @DisplayName("Testing subtraction of two numbers")
-    @Tag("unit")
+    @Tag("Unit")
     void testSubtract() {
         assertEquals(1, calculator.subtract(3, 2));
     }

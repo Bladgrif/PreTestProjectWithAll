@@ -15,10 +15,9 @@ public class TextBoxTest {
     private final WebDriver driver = new ChromeDriver();
     private final TextBoxPageSelenium textBoxPageSelenium = new TextBoxPageSelenium(driver);
 
-
     @Test
     @DisplayName("Filling out the TextBox form  and checking Selenium")
-    @Tag("web")
+    @Tag("WEB")
     public void testTextBox(){
         textBoxPageSelenium.openPage()
                 .setUserName("Roman Grigorev")

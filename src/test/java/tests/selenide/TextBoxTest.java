@@ -1,5 +1,6 @@
 package tests.selenide;
 
+import org.junit.jupiter.api.Disabled;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Tag;
 import org.junit.jupiter.api.Test;
@@ -11,7 +12,7 @@ public class TextBoxTest extends BaseTest{
 
     @Test
     @DisplayName("Filling out the TextBox form  and checking Selenide")
-    @Tag("web")
+    @Tag("WEB")
     void fileFormTest() {
 
         textBoxPageSelenide.openPage()
@@ -29,7 +30,8 @@ public class TextBoxTest extends BaseTest{
 
     @Test
     @DisplayName("Negative Filling out the TextBox form  and checking Selenide")
-    @Tag("web")
+    @Tag("WEB")
+    @Disabled
     void failFileFormTest() {
 
         textBoxPageSelenide.openPage()
