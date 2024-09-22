@@ -75,3 +75,15 @@ task unit_tests(type: Test) {
         includeTags("Unit")
     }
 }
+
+task api_tests(type: Test) {
+    useJUnitPlatform{
+        includeTags("API")
+    }
+}
+
+task web_tests(type: Test) {
+    useJUnitPlatform{
+        includeTags("WEB")
+    }
+}
