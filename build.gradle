@@ -1,0 +1,49 @@
+plugins {
+    id 'java'
+    id 'io.qameta.allure' version '2.11.2'
+}
+
+group = 'PreTestProjectWithAll'
+version = '1.0-SNAPSHOT'
+
+repositories {
+    mavenCentral()
+}
+
+def slf4jVersion = "2.0.7",
+    assertjVersion = "3.24.2",
+    mockitoVersion = "1.10.19"
+
+allure {
+    report {
+        version.set("2.17.3") //версия Allure Report (https://github.com/allure-framework/allure2)
+    }
+    adapter {
+        aspectjWeaver.set(true) // обработка аннотации @Step
+        frameworks {
+            junit5 {
+                adapterVersion.set("2.17.3") //версия Allure JUnit5 (https://github.com/allure-framework/allure-java)
+            }
+        }
+    }
+}
+
+dependencies {
+    testImplementation(
+            "com.codeborne:selenide:7.5.1",
+            'io.qameta.allure:allure-selenide:2.17.3',
+            'org.junit.jupiter:junit-jupiter:5.9.3',
+            "org.slf4j:slf4j-simple:$slf4jVersion",
+            "org.assertj:assertj-core:$assertjVersion",
+            "org.mockito:mockito-all:$mockitoVersion")
+    testRuntimeOnly(
+            "org.slf4j:slf4j-simple:$slf4jVersion")
+}
+
+test {
+    useJUnitPlatform()
+}
+
+test {
+    useJUnitPlatform()
+}
