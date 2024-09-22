@@ -9,8 +9,8 @@ import pages.TextBoxPageSelenium;
 import static java.lang.Thread.sleep;
 
 public class TextBoxTest {
-    private final WebDriver driver = new ChromeDriver();
-    private final TextBoxPageSelenium textBoxPageSelenium = new TextBoxPageSelenium(driver);
+    private  WebDriver driver = new ChromeDriver();
+    private  TextBoxPageSelenium textBoxPageSelenium = new TextBoxPageSelenium(driver);
 
     @Test
     @DisplayName("Filling out the TextBox form  and checking Selenium")
@@ -23,7 +23,7 @@ public class TextBoxTest {
                 .setCurrentAddress("Cheboksary")
                 .setPermanentAddress("Cheboksary-2")
                 .pressButton();
-//sleep(3000);
+
         textBoxPageSelenium.checkResultName("Roman Grigorev")
                 .checkResultEmail("Roman@gmail.com")
                 .checkResultCurrentAddress("Cheboksary")
