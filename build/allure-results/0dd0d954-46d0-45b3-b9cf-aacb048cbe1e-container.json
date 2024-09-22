@@ -1,1 +1,0 @@
-{"uuid":"0dd0d954-46d0-45b3-b9cf-aacb048cbe1e","name":"TextBoxTest","children":["ec039dac-3e4b-4373-8d7b-9f707a845b31","f436cd3e-51e3-47ac-bca3-d25d86ce8df4"],"befores":[{"name":"beforeAll","status":"passed","stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1727020206174,"stop":1727020206206}],"afters":[],"start":1727020206173,"stop":1727020213148}

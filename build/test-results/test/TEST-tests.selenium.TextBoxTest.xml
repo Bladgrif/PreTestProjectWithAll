@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="tests.selenium.TextBoxTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2024-09-22T15:50:14" hostname="-PC" time="3.297">
-  <properties/>
-  <testcase name="Filling out the TextBox form  and checking Selenium" classname="tests.selenium.TextBoxTest" time="3.297"/>
-  <system-out><![CDATA[Roman Grigorev
-]]></system-out>
-  <system-err><![CDATA[]]></system-err>
-</testsuite>

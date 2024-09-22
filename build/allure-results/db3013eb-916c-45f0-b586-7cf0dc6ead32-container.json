@@ -1,1 +1,0 @@
-{"uuid":"db3013eb-916c-45f0-b586-7cf0dc6ead32","name":"RestAssuredTest","children":["a46c5911-ed53-4c32-a9d9-c7d27f3d848a"],"befores":[{"name":"beforeAll","status":"passed","stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1727003628327,"stop":1727003634287}],"afters":[],"start":1727003628268,"stop":1727003635510}

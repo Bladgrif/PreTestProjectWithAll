@@ -1,6 +1,0 @@
-[2024-09-22T14:17:58.940Z] [SEVERE] https://demoqa.com/text-box - Access to fetch at 'https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js' from origin 'https://demoqa.com' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource. If an opaque response serves your needs, set the request's mode to 'no-cors' to fetch the resource with CORS disabled.
-[2024-09-22T14:17:58.940Z] [SEVERE] https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js - Failed to load resource: net::ERR_FAILED
-[2024-09-22T14:17:58.984Z] [SEVERE] https://www.googletagservices.com/tag/js/gpt.js - Failed to load resource: the server responded with a status of 499 ()
-[2024-09-22T14:17:59.053Z] [SEVERE] https://demoqa.com/text-box - Access to script at 'https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5889298451609146' from origin 'https://demoqa.com' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.
-[2024-09-22T14:17:59.053Z] [SEVERE] https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5889298451609146 - Failed to load resource: net::ERR_FAILED
-[2024-09-22T14:18:00.147Z] [SEVERE] https://cdn.ad.plus/player/adplus.js - Failed to load resource: the server responded with a status of 499 ()

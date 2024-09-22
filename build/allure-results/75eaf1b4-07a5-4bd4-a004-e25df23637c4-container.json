@@ -1,1 +1,0 @@
-{"uuid":"75eaf1b4-07a5-4bd4-a004-e25df23637c4","name":"Filling out the TextBox form  and checking Selenium","children":["f7cb5bbc-6605-4a5e-8210-92b1ab24f489"],"befores":[],"afters":[{"name":"tearDown","status":"passed","stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1727014397947,"stop":1727014404678}],"start":1727014387290,"stop":1727014404680}

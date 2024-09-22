@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="Tests for the add method" tests="2" skipped="0" failures="0" errors="0" timestamp="2024-09-22T15:49:55" hostname="-PC" time="0.376">
-  <properties/>
-  <testcase name="Test addition of two negative numbers" classname="tests.junit.CalculatorUnitTests$AddTests" time="0.348"/>
-  <testcase name="Test addition of two positive numbers" classname="tests.junit.CalculatorUnitTests$AddTests" time="0.021"/>
-  <system-out><![CDATA[]]></system-out>
-  <system-err><![CDATA[]]></system-err>
-</testsuite>
