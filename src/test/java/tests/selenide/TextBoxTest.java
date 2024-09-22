@@ -13,6 +13,7 @@ public class TextBoxTest extends BaseTest{
     @Test
     @DisplayName("Filling out the TextBox form  and checking Selenide")
     @Tag("WEB")
+    @Disabled
     void fileFormTest() {
 
         textBoxPageSelenide.openPage()

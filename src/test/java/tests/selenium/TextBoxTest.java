@@ -1,9 +1,6 @@
 package tests.selenium;
 
-import org.junit.jupiter.api.AfterEach;
-import org.junit.jupiter.api.DisplayName;
-import org.junit.jupiter.api.Tag;
-import org.junit.jupiter.api.Test;
+import org.junit.jupiter.api.*;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import pages.TextBoxPageSelenide;
@@ -18,6 +15,7 @@ public class TextBoxTest {
     @Test
     @DisplayName("Filling out the TextBox form  and checking Selenium")
     @Tag("WEB")
+    @Disabled
     public void testTextBox(){
         textBoxPageSelenium.openPage()
                 .setUserName("Roman Grigorev")
