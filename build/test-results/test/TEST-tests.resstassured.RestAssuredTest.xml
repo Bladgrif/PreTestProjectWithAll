@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="tests.resstassured.RestAssuredTest" tests="2" skipped="0" failures="0" errors="0" timestamp="2024-09-22T15:50:04" hostname="-PC" time="1.819">
+  <properties/>
+  <testcase name="Verify that the list of companies is not empty." classname="tests.resstassured.RestAssuredTest" time="1.818"/>
+  <testcase name="Verify that the list of companies is not empty." classname="tests.resstassured.RestAssuredTest" time="1.797"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

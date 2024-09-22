@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="tests.selenide.TextBoxTest" tests="2" skipped="1" failures="0" errors="0" timestamp="2024-09-22T15:50:06" hostname="-PC" time="6.72">
+  <properties/>
+  <testcase name="Negative Filling out the TextBox form  and checking Selenide" classname="tests.selenide.TextBoxTest" time="0.011">
+    <skipped/>
+  </testcase>
+  <testcase name="Filling out the TextBox form  and checking Selenide" classname="tests.selenide.TextBoxTest" time="6.723"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[[ForkJoinPool-1-worker-2] INFO com.codeborne.selenide.WebDriverThreadLocalContainer - No webdriver is bound to current thread: 19 - let's create a new webdriver
+[ForkJoinPool-1-worker-2] INFO com.codeborne.selenide.impl.FileHelper - Creating folder: C:\Users\roman\IdeaProjects\PreTestProjectWithAll\build\downloads\1727020206489_6004_19
+[ForkJoinPool-1-worker-2] INFO com.codeborne.selenide.webdriver.WebDriverFactory - BrowserName=chrome Version=129.0.6668.58 Platform=windows
+[ForkJoinPool-1-worker-2] INFO com.codeborne.selenide.webdriver.WebDriverFactory - Selenide v. 7.5.1
+[ForkJoinPool-1-worker-2] INFO com.codeborne.selenide.webdriver.WebDriverFactory - Selenium WebDriver v. 4.25.0 build revision: 8a8aea2337
+[ForkJoinPool-1-worker-2] INFO com.codeborne.selenide.drivercommands.CreateDriverCommand - Created webdriver in thread 19: ChromeDriver -> ChromeDriver: chrome on windows (5aa9e0cedd7cb9df59345709078e0d39), downloadsFolder: C:\Users\roman\IdeaProjects\PreTestProjectWithAll\build\downloads\1727020206489_6004_19
+[ForkJoinPool-1-worker-2] INFO com.codeborne.selenide.drivercommands.DisposablesRegistry - Register WebDriverInstance[config=com.codeborne.selenide.ThreadLocalSelenideConfig@773737db, webDriver=ChromeDriver: chrome on windows (5aa9e0cedd7cb9df59345709078e0d39), proxy=null, downloadsFolder=C:\Users\roman\IdeaProjects\PreTestProjectWithAll\build\downloads\1727020206489_6004_19] in 19 [size=1]
+[ForkJoinPool-1-worker-2] INFO com.codeborne.selenide.drivercommands.DisposablesRegistry - Add shutdown hook in 19 [size=1]
+[ForkJoinPool-1-worker-2] INFO com.codeborne.selenide.impl.FileHelper - Deleted empty folder: C:\Users\roman\IdeaProjects\PreTestProjectWithAll\build\downloads\1727020206489_6004_19
+[ForkJoinPool-1-worker-2] INFO com.codeborne.selenide.drivercommands.CloseDriverCommand - Close webdriver: 19 -> ChromeDriver: chrome on windows (5aa9e0cedd7cb9df59345709078e0d39)...
+[ForkJoinPool-1-worker-2] INFO com.codeborne.selenide.drivercommands.CloseDriverCommand - Closed webdriver 19 in 275 ms
+[ForkJoinPool-1-worker-2] INFO com.codeborne.selenide.drivercommands.DisposablesRegistry - Unregister WebDriverInstance[config=com.codeborne.selenide.ThreadLocalSelenideConfig@773737db, webDriver=ChromeDriver: chrome on windows (null), proxy=null, downloadsFolder=C:\Users\roman\IdeaProjects\PreTestProjectWithAll\build\downloads\1727020206489_6004_19] in 19 [size=0]
+]]></system-err>
+</testsuite>

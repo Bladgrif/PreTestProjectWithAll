@@ -1,0 +1,1 @@
+{"uuid":"a34c6f42-2ec3-4e7f-82aa-202bf1381e21","name":"Test with Mockito","children":["feb60127-6755-4a7f-9f3b-60edbaf992b0"],"befores":[{"name":"setUp","status":"passed","stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1727013729589,"stop":1727013729589}],"afters":[],"start":1727013729586,"stop":1727013730460}

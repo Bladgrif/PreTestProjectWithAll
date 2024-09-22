@@ -1,0 +1,1 @@
+{"uuid":"ddf3ce58-5c97-4503-8e18-06cb7a175633","name":"Test addition of two negative numbers","children":["c4244895-fe33-4e7a-9b5e-066373369a86"],"befores":[{"name":"setUp","status":"passed","stage":"finished","steps":[],"attachments":[],"parameters":[],"start":1727020195887,"stop":1727020195889}],"afters":[],"start":1727020195757,"stop":1727020196178}
