@@ -39,6 +39,13 @@ dependencies {
             "org.slf4j:slf4j-simple:$slf4jVersion",
             "org.assertj:assertj-core:$assertjVersion",
             "org.mockito:mockito-all:$mockitoVersion")
+    // SLF4J API для унифицированного логирования
+    implementation 'org.slf4j:slf4j-api:1.7.32'
+
+    // Logback Classic — реализация логгера для SLF4J
+    implementation 'ch.qos.logback:logback-classic:1.2.11'
+
+
     testRuntimeOnly(
             "org.slf4j:slf4j-simple:$slf4jVersion")
 }
